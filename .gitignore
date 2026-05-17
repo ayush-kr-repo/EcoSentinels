@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+.next/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ChromaDB
+chroma_db/
+
+# Ollama / model artifacts
+*.bin
+*.gguf
+
+# Environment files
+frontend/.env
+services/eco-rag/.env

@@ -1,0 +1,193 @@
+ENVIRONMENTAL HEALTH - HUMAN IMPACTS AND CLINICAL GUIDANCE
+
+POLLUTION AND HUMAN HEALTH
+
+RESPIRATORY DISEASES FROM AIR POLLUTION
+Asthma:
+- 300 million people worldwide affected
+- PM2.5 and ozone are strongest triggers
+- Urban children have 40% higher asthma rates near highways
+- Emergency room visits increase by 10% per 10 µg/m³ PM2.5 increase
+- Management: Avoid triggers, use prescribed medications, have written action plan
+
+COPD (Chronic Obstructive Pulmonary Disease):
+- 380 million affected globally
+- 70% of cases attributable to tobacco + air pollution
+- Long-term PM2.5 exposure accelerates lung function decline
+- Cannot be reversed - prevention is critical
+
+Lung Cancer:
+- Outdoor air pollution classified as Group 1 carcinogen by IARC
+- PM2.5 increases lung cancer risk even in non-smokers
+- Diesel exhaust particularly carcinogenic
+
+CARDIOVASCULAR EFFECTS
+Short-term exposure effects (hours to days):
+- Elevated blood pressure
+- Increased heart rate variability (loss of regulatory function)
+- Increased risk of heart attack and stroke
+- PM2.5 triggers inflammation and blood clotting
+
+Long-term exposure effects (years):
+- Atherosclerosis (artery hardening)
+- Hypertension
+- Reduced heart function
+- 15-20% increased cardiovascular mortality per 10 µg/m³ PM2.5
+
+NEUROLOGICAL EFFECTS
+- PM2.5 can cross blood-brain barrier
+- Linked to cognitive decline and dementia
+- Prenatal exposure linked to autism spectrum disorder
+- NO2 exposure linked to childhood cognitive impairment
+- Depression and anxiety higher in polluted areas
+
+REPRODUCTIVE HEALTH
+- PM2.5: Linked to low birth weight, preterm birth
+- Lead exposure: Developmental delays, miscarriage
+- Endocrine disruptors (from plastics, pesticides): Affect fertility
+
+CLIMATE-RELATED HEALTH THREATS
+
+HEAT-RELATED ILLNESS PREVENTION
+Prevention strategies:
+- Stay hydrated: 8+ glasses of water/day during heat events
+- Avoid alcohol and caffeine (dehydrating)
+- Wear loose, light-colored clothing
+- Use sunscreen (SPF 30+) for outdoor activities
+- Acclimatize gradually (takes 7-14 days in heat)
+- Cool down: Cold water immersion most effective for heat stroke
+
+Warning signs requiring immediate medical attention:
+- Body temperature >103°F (39.4°C)
+- Hot, red, dry or damp skin
+- Rapid, strong pulse
+- Confusion, slurred speech
+- Loss of consciousness
+
+VECTOR-BORNE DISEASES AND CLIMATE CHANGE
+Malaria:
+- 247 million cases in 2021, 619,000 deaths
+- Climate change expanding malaria-suitable regions to higher altitudes and latitudes
+- Prevention: Insecticide-treated bed nets, indoor residual spraying, antimalarial prophylaxis
+- Treatment: Artemisinin-based combination therapies (ACTs)
+
+Dengue Fever:
+- 400 million infections/year, rising rapidly
+- Aedes aegypti mosquito range expanding with warming
+- No specific treatment - fluid management critical
+- Prevention: Eliminate standing water, mosquito repellents, protective clothing
+- Outbreak conditions: Temperature 20-35°C + rainfall + urban crowding
+
+Lyme Disease:
+- Blacklegged tick (Ixodes) range expanding northward in North America
+- Symptoms: Bull's-eye rash, fever, fatigue, joint pain
+- Prevention: Tick checks, long clothing in wooded areas, DEET repellents
+- Treatment: Antibiotics effective if caught early
+
+WATERBORNE DISEASES FROM CLIMATE IMPACTS
+Cholera:
+- Climate change increasing extreme rainfall + flooding = higher risk
+- Vibrio cholerae thrives in warm coastal waters
+- Can kill within hours if untreated
+- Treatment: Oral rehydration solution (ORS) - saves 99% of cases
+- Prevention: Clean water, sanitation, vaccination
+
+Cyanotoxins from algal blooms:
+- Warm, nutrient-rich water triggers cyanobacteria blooms
+- Microcystin: Liver toxin, skin irritation
+- Cylindrospermopsin: Kidney and liver damage
+- Symptoms: Nausea, vomiting, rash, liver damage
+- Do NOT swim in water with visible algal bloom or algal scum
+
+MENTAL HEALTH AND CLIMATE
+Eco-anxiety:
+- Chronic fear of environmental catastrophe
+- More prevalent in young people (18-34 age group)
+- 68% of Americans report eco-anxiety (APA 2020)
+- Management: Action-taking, community connection, professional support
+
+Climate grief and solastalgia:
+- Grief for lost environments and ecosystems
+- "Solastalgia" = distress caused by environmental change in one's home
+- Higher rates in communities experiencing direct climate impacts
+- Support: Community resilience programs, mental health services
+
+PTSD from climate disasters:
+- Hurricane survivors: 30-50% show PTSD symptoms
+- Wildfire evacuees: Elevated rates of depression and anxiety
+- Flood victims: Long-term mental health impacts (especially children)
+- Support: Access to mental health services, community support programs
+
+NUTRITION AND FOOD SECURITY
+Climate impacts on nutrition:
+- CO2 fertilization: Reduces protein, zinc, iron in staple crops
+- Extreme heat: Reduces crop yields, increases toxin-producing fungi
+- Drought: Reduces diversity of available foods
+- Flooding: Crop losses, food price spikes
+
+Malnutrition and climate:
+- 800 million people chronically hungry
+- Climate change threatens progress on food security
+- Children most vulnerable to nutrition impacts
+- Stunting linked to poor nutrition affects cognitive development
+
+ENVIRONMENTAL JUSTICE AND HEALTH EQUITY
+Disproportionate impacts:
+- Low-income communities: Located near highways, industrial facilities, waste sites
+- Communities of color: Face 56% more PM2.5 from inequitable source placement
+- Indigenous communities: Loss of traditional food sources, cultural connections to land
+- Global South: Least responsible for climate change, most affected
+
+Health burden disparities:
+- Poor urban communities: 3x more asthma hospitalizations
+- Environmental racism: 1 in 6 climate-related deaths in BIPOC communities preventable
+- Occupational exposure: Farm workers, construction workers bear highest pollution burden
+
+Solutions - Environmental Justice:
+- Community air monitoring networks
+- Participatory environmental planning
+- Green infrastructure in underserved communities
+- Health impact assessments for new developments
+- Cumulative impact screening tools
+
+EMERGENCY MEDICAL PROTOCOLS - ENVIRONMENTAL
+
+Smoke Inhalation:
+- Move to fresh air immediately
+- Loosen clothing, monitor breathing
+- Call 911 if: wheezing, chest tightness, confusion, loss of consciousness
+- Do NOT give water to someone who is unconscious
+- Supplemental oxygen is primary treatment
+
+Chemical Exposure (Eyes):
+- Flush with clean water for 15-20 minutes
+- Remove contact lenses if present and safe to do so
+- Call Poison Control: 1-800-222-1222 (US)
+- Do NOT rub eyes
+
+Pesticide Poisoning:
+- Remove from exposure area
+- Call Poison Control immediately
+- Do NOT induce vomiting unless instructed
+- Bring product container to hospital
+
+Radiation Emergency:
+- Remove outer clothing (removes 80% of contamination)
+- Wash body with soap and water thoroughly
+- Go to designated decontamination site
+- Follow instructions from radiation protection authorities
+
+HEALTHCARE SYSTEM PREPAREDNESS FOR CLIMATE EVENTS
+Hospital surge capacity planning:
+- Pre-positioning medications and supplies for climate events
+- Backup power systems (hospitals cannot lose power)
+- Water storage for extended operations
+- Communication systems independent of commercial networks
+- Mutual aid agreements between health facilities
+- Telemedicine for communities cut off during disasters
+
+Community health resilience:
+- Community Health Workers as first-line responders
+- Training in basic disaster health response
+- Medication management for chronic disease during disasters
+- Mental health first aid training for community members

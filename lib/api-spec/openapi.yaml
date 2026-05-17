@@ -1,0 +1,607 @@
+openapi: 3.1.0
+info:
+  # Do not change the title, if the title changes, the import paths will be broken
+  title: Api
+  version: 1.0.0
+  description: EcoSentinels — Environmental Intelligence API powered by Gemma 4
+servers:
+  - url: /api
+    description: Base API path
+tags:
+  - name: health
+    description: Health operations
+  - name: rag
+    description: RAG-powered environmental knowledge queries
+  - name: environmental-data
+    description: Real-time air quality and weather data
+  - name: alerts
+    description: Community emergency alert generation
+
+paths:
+  /healthz:
+    get:
+      operationId: healthCheck
+      tags: [health]
+      summary: Health check
+      description: Returns server health status
+      responses:
+        "200":
+          description: Healthy
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HealthStatus"
+
+  /eco/health:
+    get:
+      operationId: ecoHealthCheck
+      tags: [health]
+      summary: EcoSentinels RAG service health
+      description: Returns health status of the RAG pipeline and vector store
+      responses:
+        "200":
+          description: RAG service status
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EcoHealthStatus"
+
+  /eco/rag/query:
+    post:
+      operationId: ragQuery
+      tags: [rag]
+      summary: Environmental knowledge query
+      description: RAG-powered query over curated environmental knowledge (IPCC, WHO, EPA, disaster protocols)
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/QueryRequest"
+      responses:
+        "200":
+          description: Environmental intelligence response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RagResponse"
+        "500":
+          description: Query failed
+
+  /eco/rag/briefing:
+    post:
+      operationId: communityBriefing
+      tags: [rag]
+      summary: One-shot community environmental briefing
+      description: Combines Gemma 4 synthesis, RAG evidence, real-time or offline environmental data, alert generation, and optional translation for field-ready community response.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CommunityBriefingRequest"
+      responses:
+        "200":
+          description: Field-ready environmental briefing
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CommunityBriefingResponse"
+        "500":
+          description: Briefing failed
+
+  /eco/rag/search:
+    get:
+      operationId: ragSearch
+      tags: [rag]
+      summary: Semantic search over knowledge base
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+        - name: k
+          in: query
+          required: false
+          schema:
+            type: integer
+            default: 5
+      responses:
+        "200":
+          description: Search results
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SearchResponse"
+
+  /eco/data/air-quality:
+    get:
+      operationId: getAirQuality
+      tags: [environmental-data]
+      summary: Real-time air quality data
+      description: Fetches PM2.5, PM10, NO2, O3 and computed AQI from Open-Meteo
+      parameters:
+        - name: lat
+          in: query
+          required: true
+          schema:
+            type: number
+        - name: lon
+          in: query
+          required: true
+          schema:
+            type: number
+      responses:
+        "200":
+          description: Air quality readings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AirQualityData"
+        "503":
+          description: Sensor data unavailable
+
+  /eco/data/weather:
+    get:
+      operationId: getWeather
+      tags: [environmental-data]
+      summary: Current weather and 3-day forecast
+      description: Fetches weather from Open-Meteo (free, no API key required)
+      parameters:
+        - name: lat
+          in: query
+          required: true
+          schema:
+            type: number
+        - name: lon
+          in: query
+          required: true
+          schema:
+            type: number
+      responses:
+        "200":
+          description: Weather data
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/WeatherData"
+
+  /eco/data/analyze:
+    post:
+      operationId: analyzeLocation
+      tags: [environmental-data]
+      summary: Comprehensive location environmental analysis
+      description: Combines air quality, weather, and risk assessment for a location
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AnalysisRequest"
+      responses:
+        "200":
+          description: Full environmental analysis
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalysisResponse"
+
+  /eco/alerts/generate:
+    post:
+      operationId: generateAlert
+      tags: [alerts]
+      summary: Generate community emergency alert
+      description: Uses Gemma 4 to generate structured, actionable community alerts
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AlertRequest"
+      responses:
+        "200":
+          description: Generated alert
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AlertResponse"
+
+  /eco/alerts/severity-guide:
+    get:
+      operationId: getSeverityGuide
+      tags: [alerts]
+      summary: Get alert severity thresholds
+      responses:
+        "200":
+          description: Severity guide with thresholds and color codes
+
+components:
+  schemas:
+    HealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+      required:
+        - status
+
+    EcoHealthStatus:
+      type: object
+      properties:
+        status:
+          type: string
+        rag_ready:
+          type: boolean
+        vector_store_docs:
+          type: integer
+        model:
+          type: string
+        timestamp:
+          type: string
+      required:
+        - status
+        - rag_ready
+        - vector_store_docs
+        - model
+        - timestamp
+
+    QueryRequest:
+      type: object
+      properties:
+        query:
+          type: string
+          minLength: 1
+          maxLength: 2000
+        location:
+          type: string
+          nullable: true
+        lat:
+          type: number
+          nullable: true
+        lon:
+          type: number
+          nullable: true
+        mode:
+          type: string
+          enum: [rag, agent, alert]
+          default: rag
+        language:
+          type: string
+          default: en
+      required:
+        - query
+
+    CommunityBriefingRequest:
+      type: object
+      properties:
+        location:
+          type: string
+        lat:
+          type: number
+        lon:
+          type: number
+        situation:
+          type: string
+          default: Assess local environmental health risks and prepare community guidance.
+        alert_type:
+          type: string
+          enum: [air_quality, weather, wildfire, flood, heat_wave, general]
+          default: general
+        language:
+          type: string
+          default: en
+        include_alert:
+          type: boolean
+          default: true
+      required:
+        - location
+        - lat
+        - lon
+
+    Source:
+      type: object
+      properties:
+        title:
+          type: string
+        content:
+          type: string
+        score:
+          type: number
+        source_type:
+          type: string
+      required:
+        - title
+        - content
+        - score
+        - source_type
+
+    RagResponse:
+      type: object
+      properties:
+        answer:
+          type: string
+        sources:
+          type: array
+          items:
+            $ref: "#/components/schemas/Source"
+        threat_level:
+          type: string
+          enum: [low, moderate, high, critical]
+          nullable: true
+        recommendations:
+          type: array
+          items:
+            type: string
+        agent_trace:
+          type: array
+          items:
+            type: string
+          nullable: true
+        location:
+          type: string
+          nullable: true
+        timestamp:
+          type: string
+      required:
+        - answer
+        - sources
+        - recommendations
+        - timestamp
+
+    CommunityBriefingResponse:
+      type: object
+      properties:
+        location:
+          type: string
+        coordinates:
+          type: object
+          properties:
+            lat:
+              type: number
+            lon:
+              type: number
+        situation:
+          type: string
+        threat_level:
+          type: string
+          enum: [low, moderate, high, critical]
+        executive_summary:
+          type: string
+        immediate_actions:
+          type: array
+          items:
+            type: string
+        evidence:
+          type: array
+          items:
+            $ref: "#/components/schemas/Source"
+        realtime_data:
+          type: object
+        agent_trace:
+          type: array
+          items:
+            type: string
+        alert:
+          nullable: true
+          allOf:
+            - $ref: "#/components/schemas/AlertResponse"
+        translated_alert:
+          type: string
+          nullable: true
+        trust_notes:
+          type: array
+          items:
+            type: string
+        model:
+          type: string
+        provider:
+          type: string
+          nullable: true
+        timestamp:
+          type: string
+      required:
+        - location
+        - coordinates
+        - situation
+        - threat_level
+        - executive_summary
+        - immediate_actions
+        - evidence
+        - realtime_data
+        - agent_trace
+        - trust_notes
+        - model
+        - timestamp
+
+    SearchResponse:
+      type: object
+      properties:
+        query:
+          type: string
+        results:
+          type: array
+          items:
+            type: object
+            properties:
+              content:
+                type: string
+              score:
+                type: number
+              source_type:
+                type: string
+              source_file:
+                type: string
+            required:
+              - content
+              - score
+              - source_type
+              - source_file
+      required:
+        - query
+        - results
+
+    AirQualityData:
+      type: object
+      properties:
+        station_name:
+          type: string
+        distance_km:
+          type: number
+        aqi:
+          type: integer
+          nullable: true
+        aqi_category:
+          type: string
+          nullable: true
+        readings:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              value:
+                type: number
+              unit:
+                type: string
+              last_updated:
+                type: string
+      required:
+        - station_name
+        - distance_km
+        - readings
+
+    WeatherData:
+      type: object
+      properties:
+        temperature_c:
+          type: number
+          nullable: true
+        feels_like_c:
+          type: number
+          nullable: true
+        humidity_pct:
+          type: number
+          nullable: true
+        wind_speed_mph:
+          type: number
+          nullable: true
+        weather_description:
+          type: string
+          nullable: true
+        forecast_3day:
+          type: array
+          items:
+            type: object
+
+    AnalysisRequest:
+      type: object
+      properties:
+        location:
+          type: string
+        lat:
+          type: number
+        lon:
+          type: number
+        include_air_quality:
+          type: boolean
+          default: true
+        include_weather:
+          type: boolean
+          default: true
+        detailed:
+          type: boolean
+          default: false
+      required:
+        - location
+        - lat
+        - lon
+
+    AnalysisResponse:
+      type: object
+      properties:
+        location:
+          type: string
+        coordinates:
+          type: object
+          properties:
+            lat:
+              type: number
+            lon:
+              type: number
+        air_quality:
+          nullable: true
+        weather:
+          nullable: true
+        risk_flags:
+          type: array
+          items:
+            type: string
+        overall_severity:
+          type: string
+          enum: [low, moderate, high, critical]
+        summary:
+          type: string
+      required:
+        - location
+        - coordinates
+        - risk_flags
+        - overall_severity
+        - summary
+
+    AlertRequest:
+      type: object
+      properties:
+        location:
+          type: string
+        lat:
+          type: number
+        lon:
+          type: number
+        alert_type:
+          type: string
+          enum: [air_quality, weather, wildfire, flood, heat_wave, general]
+        severity:
+          type: string
+          enum: [low, moderate, high, critical]
+        raw_data:
+          type: object
+      required:
+        - location
+        - lat
+        - lon
+        - alert_type
+        - severity
+
+    AlertResponse:
+      type: object
+      properties:
+        alert_id:
+          type: string
+        title:
+          type: string
+        summary:
+          type: string
+        detailed_message:
+          type: string
+        recommendations:
+          type: array
+          items:
+            type: string
+        threat_level:
+          type: string
+          enum: [low, moderate, high, critical]
+        affected_populations:
+          type: array
+          items:
+            type: string
+        timestamp:
+          type: string
+      required:
+        - alert_id
+        - title
+        - summary
+        - detailed_message
+        - recommendations
+        - threat_level
+        - affected_populations
+        - timestamp

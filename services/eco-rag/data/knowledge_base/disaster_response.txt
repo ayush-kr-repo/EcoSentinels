@@ -1,0 +1,208 @@
+ENVIRONMENTAL DISASTER RESPONSE PROTOCOLS
+
+WILDFIRE EMERGENCY RESPONSE
+
+THREAT LEVELS
+Level 1 - Watch: Fire conditions exist. Be aware and prepared.
+Level 2 - Warning: Fire is near. Prepare to leave immediately.
+Level 3 - Emergency (Evacuate NOW): Leave immediately. Your life is in danger.
+
+EVACUATION PROCEDURES
+1. Immediate actions when Level 3 declared:
+   - Gather Go-Bag (documents, medications, water, phone charger)
+   - Close all windows and doors (slows fire entry)
+   - Turn off propane/gas at source
+   - Leave lights on (helps firefighters see house through smoke)
+   - Follow designated evacuation routes ONLY
+   
+2. Go-Bag essentials:
+   - Water (1 gallon/person/day for 3 days)
+   - Food (3-day supply, non-perishable)
+   - Medications and first aid kit
+   - N95 respirators (smoke protection)
+   - Phone charger and backup battery
+   - Important documents (ID, insurance, prescriptions)
+   - Cash (ATMs may not work)
+   - Change of clothes
+   - Flashlight and batteries
+
+3. Shelter-in-place if evacuation blocked:
+   - Choose interior room with fewest windows
+   - Seal door gaps with wet towels
+   - Turn off all fans and HVAC
+   - Use N95 mask indoors
+
+WILDFIRE SMOKE HEALTH PROTOCOLS
+When AQI > 150 (Unhealthy):
+- Sensitive groups stay indoors with windows closed
+- Run air purifier on HEPA setting
+- Avoid strenuous outdoor activity
+
+When AQI > 200 (Very Unhealthy):
+- Everyone stays indoors
+- N95 mask required for any outdoor activity
+- Seek medical care if experiencing: difficulty breathing, chest pain, confusion
+
+When AQI > 300 (Hazardous):
+- Emergency conditions
+- Consider evacuation if sustained over 6+ hours
+- Contact emergency management for assistance
+
+FLOOD EMERGENCY RESPONSE
+
+FLOOD WATCH vs WARNING
+- Watch: Flooding is possible. Stay informed and be ready to act.
+- Warning: Flooding is occurring or imminent. Take action now.
+- Emergency: Extreme flooding. Immediate threat to life.
+
+IMMEDIATE ACTIONS - FLOOD WARNING
+1. Move to higher ground immediately
+2. Never walk, swim, or drive through flood waters
+   - 6 inches of moving water can knock down an adult
+   - 1 foot of water can float most vehicles
+   - 2 feet of rushing water can carry away most vehicles
+3. Disconnect electrical appliances (if safe to do so)
+4. Avoid contact with floodwater (contaminated with sewage, chemicals)
+5. If trapped in building: go to roof, signal for help
+
+FLASH FLOOD SPECIFIC ACTIONS
+- Flash floods can occur within minutes to hours of heavy rainfall
+- Warning signs: Rapid rise in water levels, roaring sounds upstream, debris-laden water
+- Immediate evacuation when warning issued - do NOT wait to see water
+- Never camp in dry riverbeds (flash floods can arrive with no local rain)
+
+POST-FLOOD SAFETY
+- Do not return home until authorities declare it safe
+- Document damage before cleaning (insurance)
+- Wear rubber boots and gloves when cleaning
+- Discard all food that contacted floodwater
+- Check structure for damage before entering
+- Be aware of mold growth within 24-48 hours
+
+EXTREME HEAT EMERGENCY RESPONSE
+
+HEAT WATCH/WARNING CRITERIA
+Heat Advisory: Heat index 100-104°F for ≥2 days
+Excessive Heat Watch: Conditions favorable for Heat Warning
+Excessive Heat Warning: Heat index ≥105°F for ≥2 hours AND overnight temperatures ≥75°F
+
+HEAT ILLNESS PROGRESSION
+1. Heat Cramps: Muscle spasms
+   - Move to cool place, drink water with electrolytes, stretch muscles
+
+2. Heat Exhaustion: 
+   - Symptoms: Heavy sweating, weakness, cool/pale/clammy skin, weak pulse, nausea
+   - Action: Move to cool location, loosen clothing, apply cool wet cloths, sip water
+   - Seek medical care if no improvement in 30 minutes
+
+3. Heat Stroke (MEDICAL EMERGENCY):
+   - Symptoms: Hot/red/dry or damp skin, rapid strong pulse, confusion, body temp >103°F
+   - Action: Call 911 immediately, cool rapidly by any means available
+   - This is life-threatening - do NOT delay calling emergency services
+
+HEAT VULNERABILITY
+Highest risk groups:
+- Adults 65 and older (reduced sweating ability, medications)
+- Infants and young children (high surface-to-mass ratio, can't communicate distress)
+- People without air conditioning
+- Outdoor workers (farmers, construction, landscaping)
+- Athletes training outdoors
+- People with chronic conditions (heart disease, obesity, mental illness)
+- People taking diuretics, antihistamines, beta-blockers
+
+COMMUNITY RESPONSE
+- Open cooling centers: Libraries, community centers, malls
+- Check on elderly neighbors daily
+- Never leave children or pets in vehicles (car temps can reach 120°F+ quickly)
+- Emergency services should prioritize vulnerability checks
+
+DROUGHT AND WATER SCARCITY RESPONSE
+
+DROUGHT STAGES AND RESPONSE
+D0 - Abnormally Dry: Voluntary conservation requested
+D1 - Moderate Drought: Restrictions on outdoor watering
+D2 - Severe Drought: Significant restrictions, emergency planning
+D3 - Extreme Drought: Critical shortages, water rationing
+D4 - Exceptional Drought: Emergency declarations, supply deliveries
+
+WATER CONSERVATION MEASURES BY STAGE
+Stage 1: Reduce usage 10-15%
+- Fix leaks immediately
+- Water lawns early morning or evening only (2 days/week)
+- Use dishwasher/laundry only when full
+
+Stage 2: Reduce usage 25-30%
+- No outdoor watering except food gardens
+- No car washing
+- Limit showers to 5 minutes
+
+Stage 3: Reduce usage 40%
+- No outdoor water use permitted
+- Restaurants serve water only on request
+- Pool filling prohibited
+
+Stage 4: Emergency rationing
+- Government-controlled distribution
+- Priority: Drinking, cooking, sanitation only
+- Agricultural use severely restricted
+
+EARTHQUAKE AND GEOHAZARD RESPONSE
+
+DURING EARTHQUAKE
+1. DROP: Get on hands and knees before shaking knocks you down
+2. COVER: Get under sturdy desk/table, or against interior wall, away from windows
+3. HOLD ON: Stay until shaking stops
+
+AFTER EARTHQUAKE - ENVIRONMENTAL HAZARDS
+- Gas leaks: Smell gas → open windows, leave building, don't use electrical switches
+- Chemical spills: Infrastructure damage can cause industrial accidents
+- Landslides: Common in mountainous areas after earthquakes
+- Tsunamis: If earthquake felt in coastal area, move inland immediately
+- Liquefaction: Sandy soils can behave like liquid, damaging structures
+
+CHEMICAL AND INDUSTRIAL EMERGENCY RESPONSE
+
+HAZMAT INCIDENT PROTOCOLS
+1. Identify: What chemical? (MSDS sheets, placards, emergency contacts)
+2. Notify: Call 911, report location, chemical name if known
+3. Isolate: Establish safety perimeter (typically 300m minimum)
+4. Protect: Upwind positioning, shelter-in-place if advised
+
+SHELTER-IN-PLACE FOR CHEMICAL EMERGENCY
+- Go inside a building immediately
+- Close all windows, doors, fireplace dampers
+- Turn off fans, air conditioning, heating
+- Move to interior room above ground level
+- Listen to emergency radio for all-clear
+- If airborne chemical exposure: cover nose/mouth with wet cloth
+
+RADIATION EMERGENCY (Nuclear/Radiological)
+- Get inside: Brick/concrete buildings provide 10x better protection than wood
+- Stay inside: Radiation decreases dramatically with distance from source
+- Stay tuned: Follow official instructions
+- Potassium Iodide (KI) only if instructed by authorities (protects thyroid)
+
+ENVIRONMENTAL MONITORING THRESHOLDS FOR ALERTING
+
+Air Quality Index:
+- >100: Alert sensitive populations
+- >150: Issue public health advisory
+- >200: Declare air quality emergency, open air refuges
+- >300: Hazardous emergency, consider evacuation of vulnerable
+
+Heat Index:
+- >90°F: Issue heat advisory for sensitive groups
+- >100°F: Open cooling centers
+- >105°F: Excessive heat warning, check on vulnerable
+- >110°F: Emergency heat crisis, mandatory cooling center referrals
+
+Wind Speed (Wildfire Risk):
+- >15 mph: Elevated fire spread risk
+- >25 mph: High fire danger, red flag conditions
+- >45 mph: Extreme fire danger, pre-position resources
+
+Flood Stage:
+- Action Stage: Rivers at bankfull stage, minor flooding
+- Flood Stage: Flooding of low areas
+- Moderate Flood Stage: Flooding of structures/roads
+- Major Flood Stage: Widespread inundation, evacuations

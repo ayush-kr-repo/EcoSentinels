@@ -1,0 +1,143 @@
+AIR QUALITY STANDARDS AND HEALTH GUIDELINES
+
+WHO AIR QUALITY GUIDELINES (2021 UPDATE)
+
+PARTICULATE MATTER (PM2.5)
+Fine particulate matter with diameter ≤2.5 micrometers penetrates deep into lungs and bloodstream.
+- WHO Annual guideline: 5 µg/m³ (revised down from 10)
+- WHO 24-hour guideline: 15 µg/m³ (3-4 exceedance days/year acceptable)
+- US EPA Annual Standard: 9 µg/m³ (2024 revision)
+- US EPA 24-hour Standard: 35 µg/m³
+
+Health effects by concentration:
+- 0-12 µg/m³: Good - little or no risk
+- 12-35 µg/m³: Moderate - unusually sensitive may be affected
+- 35-55 µg/m³: Unhealthy for Sensitive Groups - heart/lung disease, elderly, children
+- 55-150 µg/m³: Unhealthy - everyone may experience effects
+- 150-250 µg/m³: Very Unhealthy - serious effects for everyone
+- 250+ µg/m³: Hazardous - emergency conditions
+
+PARTICULATE MATTER (PM10)
+Coarse particles with diameter ≤10 micrometers
+- WHO Annual guideline: 15 µg/m³
+- WHO 24-hour guideline: 45 µg/m³
+- Causes respiratory irritation, aggravates asthma
+
+OZONE (O3) - Ground Level
+Formed when pollutants from cars, power plants react with sunlight.
+- WHO 8-hour guideline: 60 µg/m³ (100 ppb)
+- US EPA 8-hour Standard: 70 ppb
+- Health effects: chest pain, coughing, throat irritation, reduced lung function
+- Especially harmful for children, elderly, people with asthma
+
+NITROGEN DIOXIDE (NO2)
+From combustion processes (vehicles, power plants, industry)
+- WHO Annual guideline: 10 µg/m³ (revised from 40)
+- WHO 24-hour guideline: 25 µg/m³
+- Health effects: Irritates airways, aggravates respiratory diseases
+
+SULFUR DIOXIDE (SO2)
+From fossil fuel combustion and volcanic activity
+- WHO 24-hour guideline: 40 µg/m³
+- WHO 10-minute guideline: 500 µg/m³
+- Health effects: Respiratory irritation, bronchoconstriction
+
+CARBON MONOXIDE (CO)
+From incomplete combustion
+- WHO 1-hour guideline: 35 mg/m³
+- WHO 8-hour guideline: 10 mg/m³
+- Health effects: Reduces oxygen delivery to organs, headaches, dizziness, death at high levels
+
+AIR QUALITY INDEX (AQI) - US EPA SCALE
+0-50: GOOD (Green)
+- Air quality is satisfactory, air pollution poses little or no risk
+- Who is at risk: No one
+
+51-100: MODERATE (Yellow)
+- Air quality is acceptable; however, for some pollutants there may be a moderate health concern for a very small number of people
+- Who is at risk: Unusually sensitive people
+
+101-150: UNHEALTHY FOR SENSITIVE GROUPS (Orange)
+- Members of sensitive groups may experience health effects
+- General public not likely to be affected
+- Who is at risk: People with heart or lung disease, older adults, children, people with diabetes
+
+151-200: UNHEALTHY (Red)
+- Everyone may begin to experience health effects
+- Members of sensitive groups may experience more serious health effects
+- Who is at risk: Everyone
+
+201-300: VERY UNHEALTHY (Purple)
+- Health alert: everyone may experience more serious health effects
+- Who is at risk: Everyone
+
+301+: HAZARDOUS (Maroon)
+- Health warnings of emergency conditions
+- Entire population more likely to be affected
+- Who is at risk: Everyone
+
+WILDFIRE SMOKE IMPACTS
+During wildfire events, AQI can spike dramatically:
+- PM2.5 can reach 500+ µg/m³ in severe fires
+- Smoke contains CO, volatile organic compounds, heavy metals
+- Visibility reduced to less than 1 mile at PM2.5 > 250 µg/m³
+- Even healthy individuals should limit outdoor exposure when AQI > 150
+
+VULNERABLE POPULATIONS FOR AIR QUALITY
+1. People with asthma or COPD - most sensitive to PM2.5 and ozone
+2. Cardiovascular disease patients - PM2.5 triggers heart attacks
+3. Children under 18 - lungs still developing
+4. Adults over 65 - less efficient at defending against pollution
+5. Outdoor workers - higher exposure duration
+6. Pregnant women - linked to low birth weight, preterm birth
+7. People in poverty - less ability to reduce exposure (no AC, outdoor jobs)
+
+PROTECTIVE ACTIONS BY AQI LEVEL
+Good (0-50): No action needed. Good day for outdoor activities.
+
+Moderate (51-100): Sensitive groups should consider reducing prolonged outdoor exertion.
+
+Unhealthy for Sensitive Groups (101-150):
+- Sensitive groups should avoid prolonged outdoor exertion
+- Move activities indoors or reschedule
+- Wear N95 mask if outdoor activity necessary
+
+Unhealthy (151-200):
+- Everyone should reduce outdoor activity
+- Keep windows closed, use air purifiers
+- Wear N95 mask outdoors
+- Check on elderly neighbors
+
+Very Unhealthy (201-300):
+- Avoid all outdoor physical activity
+- Stay indoors with air purification
+- Use N95 masks if must go outside
+- Emergency plans for vulnerable people
+
+Hazardous (301+):
+- Remain indoors
+- Seal doors and windows
+- Consider evacuation if sustained
+- N95/P100 respirators required outdoors
+- Contact health authorities
+
+INDOOR AIR QUALITY
+Indoor pollution often 2-5x worse than outdoor:
+- Cooking smoke: PM2.5 spikes
+- Radon: #1 cause of lung cancer in non-smokers
+- Volatile Organic Compounds (VOCs) from paints, cleaning products
+- Carbon monoxide from appliances
+- Mold spores: trigger asthma and allergies
+
+Solutions:
+- Ventilation: Open windows when outdoor air is clean
+- HEPA air purifiers: Filter PM2.5 effectively
+- CO detectors: Required in sleeping areas
+- Radon testing: Mitigation if above 4 pCi/L
+
+GLOBAL AIR POLLUTION STATISTICS
+- 7 million premature deaths per year from air pollution (WHO)
+- 99% of world population breathes air exceeding WHO limits
+- PM2.5 is the 5th leading risk factor for death globally
+- Cost of air pollution: $5 trillion/year in welfare losses
+- South and East Asia bear the highest burden

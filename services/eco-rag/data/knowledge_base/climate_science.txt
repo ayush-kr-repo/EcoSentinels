@@ -1,0 +1,108 @@
+IPCC SIXTH ASSESSMENT REPORT - KEY FINDINGS (AR6 2021-2022)
+
+GLOBAL WARMING AND CLIMATE CHANGE
+
+The IPCC AR6 confirms that human influence has warmed the atmosphere, ocean and land. Widespread and rapid changes in the atmosphere, ocean, cryosphere and biosphere have occurred. Global surface temperature has increased faster since 1970 than in any other 50-year period over at least the last 2000 years.
+
+TEMPERATURE THRESHOLDS
+- Global warming of 1.5°C will be crossed in the early 2030s under all assessed emissions scenarios
+- At 2°C warming, heat extremes would more often reach critical tolerance thresholds for agriculture and health
+- At 4°C warming, virtually no ice-free Arctic summers would occur
+
+EXTREME WEATHER EVENTS
+Human-induced climate change has already increased the frequency and intensity of many extreme events:
+- Heat waves: More frequent, more intense, longer-lasting
+- Heavy precipitation: Increased frequency and magnitude
+- Agricultural and ecological droughts: Increased in some regions
+- Tropical cyclones: Increased proportion reaching higher categories
+- Compound events: Co-occurring heatwaves and droughts more frequent
+
+TIPPING POINTS
+Critical climate tipping points that could be triggered:
+1. Arctic sea ice loss - positive feedback accelerates warming
+2. Greenland ice sheet collapse - 7 meters sea level rise potential
+3. West Antarctic ice sheet - 5 meters sea level rise potential
+4. Amazon rainforest dieback - loss of carbon sink, biodiversity
+5. Permafrost thaw - massive methane and CO2 release
+6. Atlantic Meridional Overturning Circulation (AMOC) weakening
+7. Boreal forest fires - accelerating carbon release
+
+REGIONAL IMPACTS - ASIA
+- Increased frequency and intensity of extreme heat events
+- Changes in monsoon patterns affecting agriculture
+- Coastal flooding from sea level rise
+- Glacier retreat affecting freshwater availability
+- Increased risk of vector-borne diseases
+
+REGIONAL IMPACTS - AMERICAS
+- More intense hurricanes in the Atlantic
+- Severe droughts in western North America
+- Increased wildfire risk in western US and Canada
+- Sea level rise threatening coastal communities
+- Amazon deforestation feedback loops
+
+REGIONAL IMPACTS - EUROPE
+- Record-breaking heat waves becoming routine
+- Mediterranean region drying
+- Increased flood risk in northern Europe
+- Alpine glacier loss
+- Disruption of agricultural systems
+
+FEEDBACK MECHANISMS
+1. Water vapor feedback: Warming increases evaporation, more water vapor (greenhouse gas) amplifies warming
+2. Ice-albedo feedback: Ice melts, darker ocean/land absorbs more heat
+3. Cloud feedbacks: Complex; both positive and negative effects
+4. Carbon cycle feedbacks: Warming soils release CO2 and methane
+5. Permafrost: ~1.5 trillion tons of carbon locked in permafrost
+
+EMISSIONS AND MITIGATION
+- CO2 must reach net zero by ~2050 to limit to 1.5°C
+- Methane cuts of ~45% needed by 2030
+- Land use: Stopping deforestation + reforestation could provide 30% of needed mitigation
+- Renewable energy must scale 4-6x faster than current rates
+
+AIR QUALITY AND CLIMATE NEXUS
+- Climate change worsens air quality through increased wildfires, dust storms, and temperature inversions
+- Ozone pollution increases with higher temperatures
+- Fine particulate matter (PM2.5) from fires causes millions of premature deaths
+- Poor air quality disproportionately affects low-income communities
+
+SEA LEVEL RISE PROJECTIONS
+- 2050: 0.2-0.3 meters (likely range)
+- 2100: 0.3-1.0 meters under high emissions scenarios
+- 2100: Could exceed 2 meters if ice sheet instability occurs
+- Rate of rise is accelerating
+
+BIODIVERSITY AND ECOSYSTEMS
+- 1°C: 6% of insects, 8% of plants, 4% of vertebrates lose half their range
+- 2°C: 18% of insects, 16% of plants, 8% of vertebrates lose half their range
+- 3°C: 49% of insects, 44% of plants, 26% of vertebrates lose half their range
+- Ocean acidification threatens coral reefs, shellfish, marine food webs
+
+FOOD SECURITY
+- Crop yields: Wheat -6%/decade, maize -7%/decade, rice -3%/decade per degree of warming
+- Fisheries: Declining in tropical regions
+- Livestock: Heat stress reduces productivity
+- Nutrition: CO2 fertilization reduces protein and mineral content
+
+WATER SECURITY
+- 1 billion people currently face water scarcity
+- Climate change will intensify droughts in dry regions
+- Glacial retreat threatens freshwater for hundreds of millions
+- Saltwater intrusion threatens coastal freshwater supplies
+
+HEALTH IMPACTS
+- Direct: Heat deaths (10,000+ per year in Europe alone), extreme weather injuries
+- Vector-borne disease: Malaria and dengue expanding range
+- Waterborne disease: Increased flooding spreads contamination
+- Air quality: 7 million deaths/year from air pollution already
+- Mental health: Climate anxiety, PTSD from disasters
+
+VULNERABLE POPULATIONS
+Most at risk from climate change impacts:
+- Small island developing states
+- Arctic communities
+- Subsistence farmers in Sub-Saharan Africa
+- Low-lying coastal populations (Bangladesh, Pacific islands)
+- Urban heat island residents (low-income, elderly)
+- Indigenous communities with climate-dependent livelihoods

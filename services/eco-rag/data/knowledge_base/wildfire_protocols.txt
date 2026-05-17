@@ -1,0 +1,134 @@
+WILDFIRE SCIENCE, BEHAVIOR, AND COMMUNITY RESPONSE
+
+WILDFIRE BEHAVIOR FUNDAMENTALS
+
+Fire Triangle:
+- Fuel: Vegetation (grass, shrubs, trees), structures, combustible materials
+- Heat: Lightning, human activity, embers from existing fires
+- Oxygen: Wind accelerates fire dramatically
+
+Fire Spread Factors:
+1. Wind: Primary driver of fire spread. Doubles speed at 12 mph; quadruples at 24 mph
+2. Slope: Fire spreads twice as fast uphill for every 10-degree increase in slope
+3. Fuel moisture: Below 10% = extreme fire danger; 30%+ = minimal fire spread
+4. Fuel type: Fine fuels (grass) ignite easily; heavy fuels (logs) burn longer
+5. Temperature: Higher temps = lower fuel moisture = faster ignition
+
+Fire Weather Conditions:
+- Red Flag Warning: Relative humidity <15%, wind speed >25mph, critically low fuel moisture
+- Fire Weather Watch: Conditions likely within 24-48 hours
+- Haines Index: Measures potential for large fire growth (scale 2-6; 6 = extreme)
+- FFDI (Fire Danger Rating): Australian system (Low to Catastrophic)
+
+WILDFIRE AND AIR QUALITY
+
+Smoke Composition:
+- PM2.5: Dominant pollutant in wildfire smoke; most dangerous to health
+- Carbon Monoxide: Can reach dangerous levels near active fires
+- Volatile Organic Compounds (VOCs): Hundreds of species in smoke
+- Polycyclic Aromatic Hydrocarbons (PAHs): Carcinogenic compounds
+- Ozone: Formed downwind from smoke plumes interacting with sunlight
+
+Smoke Dispersion Factors:
+- Wind direction: Determines which communities receive smoke impact
+- Atmospheric stability: Inversions trap smoke near ground level
+- Terrain: Mountains and valleys channel smoke
+- Distance: PM2.5 can travel thousands of miles from source fires
+
+Historical Wildfire Events:
+- 2018 Camp Fire (Paradise, CA): 85 deaths, AQI >500 in Sacramento (200+ miles away)
+- 2019-2020 Black Summer Australia: Burned 18.6 million hectares, smoke affected New Zealand
+- 2021 Dixie Fire (CA): Largest single fire in CA history at 963,000+ acres
+- 2023 Canada Wildfires: Smoke reached Europe; NYC recorded worst air quality in decades
+
+COMMUNITY PREPAREDNESS
+
+DEFENSIBLE SPACE (Home Ignition Zone)
+Zone 1 (0-30 feet from home):
+- Remove all dead plants, grass, weeds
+- Clear debris from roof, gutters, decks
+- Keep lawns green and trimmed to 4 inches
+- Space trees 30+ feet apart
+- Remove tree branches within 10 feet of ground
+- No wood piles or propane tanks adjacent to house
+
+Zone 2 (30-100 feet from home):
+- Reduce flammable vegetation — thin trees, remove ladder fuels
+- Space shrubs in clusters, 15+ feet apart
+- Remove dead plant material
+- Mow annual grasses to 4 inches
+
+Home Hardening:
+- Ember-resistant vents: Replace standard vents with 1/16" mesh
+- Fire-resistant roofing: Class A materials (metal, tile, asphalt shingles)
+- Multi-pane windows: Tempered glass or dual-pane
+- Enclosed eaves: Exposed rafters are ignition points
+- Non-combustible decking: Concrete, tile, or composite
+
+EVACUATION PLANNING
+Go-Bag (72 hours minimum):
+- Water: 1 gallon per person per day
+- Food: Non-perishable, no cooking required
+- Medications: Full supply + prescriptions
+- Documents: ID, insurance, medical records (in waterproof bag or USB)
+- Phone + charger + portable battery
+- Cash (small bills)
+- N95 respirators (smoke protection)
+- Change of clothes, sturdy shoes
+- Pet supplies and carrier
+- First aid kit
+
+Family Communication Plan:
+- Two meeting places: One near home, one outside neighborhood
+- Out-of-state contact (easier to reach in local disaster)
+- Know multiple evacuation routes
+- Pre-plan what to take (can't think clearly in emergency)
+- Register special needs with county emergency management
+
+COMMUNITY ALERT SYSTEMS
+- WEA (Wireless Emergency Alerts): Automatic alerts to mobile phones
+- Nixle: Local government notification service
+- Ready.gov: Federal emergency management resources
+- Local emergency management: Know your county's system
+- NOAA Weather Radio: Battery-powered radio for power outages
+
+WILDFIRE RISK ASSESSMENT TOOLS
+- USFS Fire Danger Rating: Daily assessment by forest type
+- Copernicus Emergency Management Service: Satellite damage assessment
+- EFFIS (European Forest Fire Information System): EU-wide monitoring
+- NIFC (National Interagency Fire Center): US fire statistics
+- Cal Fire: California-specific fire mapping and alerts
+
+INDIGENOUS FIRE MANAGEMENT
+Traditional Ecological Knowledge:
+- Indigenous peoples have managed landscapes with fire for thousands of years
+- Cultural burning: Low-intensity fires to manage vegetation, promote diversity
+- Aboriginal fire management in Australia reduced catastrophic fire intensity
+- Native American burning maintained prairie ecosystems and habitat
+- Benefits: Reduces fuel accumulation, improves habitat diversity, maintains cultural landscapes
+
+Modern Integration:
+- Cultural burning being reintegrated into land management in US, Australia, Canada
+- Evidence shows traditional burning reduces catastrophic fire risk
+- Provides ecological benefits: biodiversity, soil health, wildlife habitat
+- Being recognized in environmental policy frameworks
+
+WILDFIRE AND CLIMATE CHANGE
+Trends:
+- Fire season in Western US has extended by 78 days since 1970
+- Area burned annually in Western US has doubled since 1984
+- Fire intensity increasing with heat and drought
+- Large fires (>10,000 acres) now 7x more common than 1970s
+
+Projections:
+- 2°C warming: Annual burned area could increase 100-200% in Mediterranean regions
+- Western US: Fire weather season extends 2-3 months by 2050
+- Tropics: New fire-prone regions emerging
+- Feedback loop: Fire emissions add CO2, accelerating climate change
+
+EcoSentinels Wildfire Monitoring:
+- Real-time fire detection using MODIS and VIIRS satellite data
+- Smoke plume trajectory modeling
+- Community exposure assessment based on wind patterns and AQI
+- Automated alert generation for affected communities
+- Evacuation route optimization based on fire progression

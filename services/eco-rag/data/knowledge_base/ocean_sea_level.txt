@@ -1,0 +1,124 @@
+OCEAN SYSTEMS, SEA LEVEL RISE, AND COASTAL COMMUNITIES
+
+OCEAN WARMING AND ACIDIFICATION
+
+Current State:
+- Oceans have absorbed >90% of excess heat from greenhouse gas emissions
+- Sea surface temperatures at record highs: 2023 was hottest ocean year on record
+- Marine heat waves: 54% of ocean surface experienced heat wave conditions in 2023
+- Ocean heat content (0-2000m depth) continues to break records annually
+
+Ocean Acidification:
+- Pre-industrial pH: 8.2 → Current pH: 8.1 → 2100 projection: 7.95 (high emissions)
+- Each 0.1 pH unit decrease = 26% increase in acidity (logarithmic scale)
+- Calcium carbonate dissolution: Shells and skeletons of marine life dissolve
+- Pteropods ("sea butterflies"): Already showing shell dissolution in Southern Ocean
+- Coral calcification: 20% reduction at current acidification levels
+- Economic impact on fisheries: $1 billion/year in US shellfish industry at risk
+
+CORAL REEF SYSTEMS
+
+Coral Bleaching:
+- Occurs when water temperature exceeds normal by >1°C for 4+ weeks
+- Symbiotic algae (zooxanthellae) expelled → coral turns white → coral starvation
+- 4°C temperature anomaly = coral mortality within weeks
+- Mass bleaching events:
+  - 1998: First global bleaching event, 16% of world's coral died
+  - 2016: Great Barrier Reef lost 50% of shallow water coral
+  - 2024: 4th global bleaching event — most extensive on record
+
+Great Barrier Reef:
+- World's largest coral ecosystem: 2,300km, 900 islands
+- Supports 1,500 fish species, 4,000 mollusk species
+- $6.4 billion/year to Australian economy
+- Lost 50%+ of coral since 1985
+- 2016 and 2017: Consecutive bleaching events affected 91% of surveyed reefs
+- At 2°C warming: Annual bleaching would prevent reef recovery
+
+Reef Restoration:
+- Coral gardening: Growing coral fragments on underwater nurseries
+- Assisted evolution: Selectively breeding heat-tolerant coral
+- Coral micro-fragmentation: Splitting coral to accelerate growth
+- Cold water pumping: Cooling reef water during heat events (experimental)
+- Shade structures (Reef Rescue): Fabric to reduce solar radiation
+
+SEA LEVEL RISE
+
+Causes and Contributions:
+1. Thermal expansion: Warmer water takes up more volume (~40% of rise)
+2. Mountain glacier melt (~20% of rise)
+3. Greenland Ice Sheet melt (~20% of rise and accelerating)
+4. Antarctic Ice Sheet melt (~10-15% of rise, high uncertainty)
+
+Current Rate and Projections:
+- 1900-1970: 1.5mm/year average rise
+- 1970-2010: 2.0mm/year average rise
+- 2010-2020: 4.3mm/year average rise (accelerating)
+- 2050 (likely range): 20-30cm above 2000 baseline
+- 2100 (low emissions): 30-60cm
+- 2100 (high emissions): 60-100cm (some estimates to 2m with ice sheet instability)
+
+Regional Variations:
+- Sea level rise is not uniform globally
+- US East Coast: Rising 3-4x faster than global average (AMOC slowdown)
+- Alaska and Canada: Some land is rising (glacial rebound), partially offsetting
+- Pacific Islands: Amplified by land subsidence from groundwater extraction
+- Bangladesh: Compounding from sinking delta + sea level rise
+
+Coastal Flooding:
+- 100-year flood events becoming 10-year events in many locations
+- Storm surge amplified by higher baseline sea level
+- Nuisance flooding (sunny day flooding at high tides) increasing
+- Miami: 400% increase in sunny day flooding since 2000
+- Jakarta (Indonesia): Sinking 25cm/year + sea level rise = extreme vulnerability
+
+VULNERABLE COASTAL COMMUNITIES
+
+Small Island Developing States (SIDS):
+- Maldives: 80% of land <1m above sea level — existential threat
+- Tuvalu: First nation negotiating "migration with dignity" to New Zealand
+- Kiribati: Already purchased land in Fiji for potential relocation
+- Marshall Islands: National Emergency declared for climate adaptation
+- 10% of world's population lives <10m above sea level
+
+Mega-Deltas at Risk:
+- Ganges-Brahmaputra (Bangladesh): 50+ million people at risk
+- Mekong (Vietnam): Rice bowl of Asia under threat
+- Nile Delta (Egypt): 30% of Egypt's agricultural land at risk
+- Mississippi Delta: Losing land area equivalent to a football field per hour
+- Yangtze Delta: Shanghai and 50 million people in high flood risk zone
+
+Indigenous Coastal Communities:
+- Shishmaref, Alaska: Voted to relocate entire village due to erosion
+- Newtok, Alaska: Undergoing managed retreat — first US climate refugee community
+- Louisiana Isle de Jean Charles: 98% land loss since 1955
+- Traditional fishing communities losing access to ancestral waters
+
+COASTAL ADAPTATION STRATEGIES
+
+Hard Infrastructure:
+- Sea walls and levees: Protect in short term; can worsen erosion elsewhere
+- Storm surge barriers: Thames Barrier (London), MOSE (Venice)
+- Beach nourishment: Sand pumping to replenish eroded beaches (temporary)
+- Breakwaters: Reduce wave energy reaching shore
+
+Nature-Based Solutions:
+- Mangrove restoration: Mangroves reduce wave height by 50-70%, store carbon
+- Coastal wetland restoration: Marshes absorb storm surge energy
+- Oyster reef restoration: Breakwater effect + habitat + water quality
+- Living shorelines: Hybrid approaches using natural materials
+- Coral reef restoration: Reefs dissipate 97% of wave energy
+
+Managed Retreat:
+- Moving communities away from high-risk coastal areas
+- Often the most cost-effective long-term strategy
+- Faces social resistance due to community ties, property values
+- Insurance markets increasingly driving retreat decisions
+- Need supportive policies and funding for equitable implementation
+
+EcoSentinels Coastal Monitoring:
+- Integrates satellite sea level data from NASA/CNES SWOT mission
+- Storm surge prediction linked to community alert system
+- Coastal flood risk mapping by community
+- Mangrove and seagrass health monitoring via remote sensing
+- Supports coastal community early warning and evacuation planning
