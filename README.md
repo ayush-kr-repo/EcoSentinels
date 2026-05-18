@@ -31,7 +31,7 @@ Built for the **Kaggle Gemma 4 Good Hackathon**.
 *Eco-Intel — Gemma 4 field briefing with threat level, immediate actions* 
 
 ![French Translation](docs/images/translation_french.png)
-*Multi-language translation — Spanish alert output via Gemma 4*
+*Multi-language translation — French alert output via Gemma 4*
 
 ---
 
