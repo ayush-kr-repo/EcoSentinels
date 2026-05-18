@@ -18,11 +18,14 @@ Built for the **Kaggle Gemma 4 Good Hackathon**.
 ![Dashboard](docs/images/dashboard.png)
 *Dashboard — Neural Modeling Score with 3D Earth globe*
 
+
 ![Risk Map](docs/images/risk_map.png)
 *Risk Map — Live planetary feed with hotspot filtering and region details*
 
+
 ![Insights](docs/images/Insights_Delhi.png)
 *Insights — 6-month biodiversity trend powered by live AQI and weather data*
+
 
 ![Eco-Intel Response](docs/images/ecointel_response.png)
 *Eco-Intel — Gemma 4 field briefing with threat level, immediate actions* 
