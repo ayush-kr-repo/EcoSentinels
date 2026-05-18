@@ -64,10 +64,10 @@ export function SideNavigation({ currentPage, onNavigate }: NavigationProps) {
                   className="min-w-0 overflow-hidden"
                 >
                   <div className="font-bold text-on-surface text-sm whitespace-nowrap">
-                    ORBITAL NODE 01
+                    ECOSENTINELS
                   </div>
                   <div className="text-xs text-primary-container uppercase tracking-wider whitespace-nowrap">
-                    System Administrator
+                    Environmental AI Platform
                   </div>
                 </motion.div>
               )}
@@ -166,9 +166,9 @@ export function SideNavigation({ currentPage, onNavigate }: NavigationProps) {
                   <Radio className="w-6 h-6 text-on-primary" />
                 </div>
                 <div>
-                  <div className="font-bold text-on-surface">ORBITAL NODE 01</div>
+                  <div className="font-bold text-on-surface">ECOSENTINELS</div>
                   <div className="text-xs text-primary-container uppercase tracking-wider">
-                    System Administrator
+                    Environmental AI Platform
                   </div>
                 </div>
               </div>
