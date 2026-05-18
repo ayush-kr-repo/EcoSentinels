@@ -390,7 +390,7 @@ async def run_environmental_agent(
 
     trace.append("Synthesizing with Gemma environmental intelligence agent")
 
-        user_msg = f"""User Query: {query}
+    user_msg = f"""User Query: {query}
 
 REAL-TIME ENVIRONMENTAL DATA:
 {realtime_summary}
