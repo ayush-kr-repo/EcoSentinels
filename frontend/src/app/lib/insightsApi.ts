@@ -37,7 +37,7 @@ export interface InsightsAnalysisResponse {
   summary: string;
 }
 
-const API_BASE = import.meta.env.VITE_API_BASE || '/api';
+const API_BASE = (import.meta.env.VITE_API_BASE || '/api/eco').replace(/\/$/, '');
 
 export const INSIGHTS_LOCATIONS: InsightsLocationOption[] = [
   {
@@ -73,7 +73,7 @@ export const INSIGHTS_LOCATIONS: InsightsLocationOption[] = [
 export async function fetchInsightsAnalysis(
   selectedLocation: InsightsLocationOption,
 ): Promise<InsightsAnalysisResponse> {
-  const response = await fetch(`${API_BASE}/eco/data/analyze`, {
+  const response = await fetch(`${API_BASE}/data/analyze`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

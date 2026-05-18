@@ -58,7 +58,7 @@ export interface CommunityBriefing {
   timestamp: string;
 }
 
-const API_BASE = import.meta.env.VITE_API_BASE || '/api';
+const API_BASE = import.meta.env.VITE_API_BASE || '/api/eco';
 
 export const demoScenarios: BriefingScenario[] = [
   {
@@ -99,7 +99,7 @@ export const demoScenarios: BriefingScenario[] = [
 export async function createCommunityBriefing(
   scenario: BriefingScenario,
 ): Promise<CommunityBriefing> {
-  const response = await fetch(`${API_BASE}/eco/rag/briefing`, {
+  const response = await fetch(`${API_BASE}/rag/briefing`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
