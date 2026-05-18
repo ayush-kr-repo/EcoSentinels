@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     chunk_overlap: int = 150
     retrieval_k: int = 2
 
-    port: int = 6000
+    port: int = int(os.getenv("PORT", os.getenv("RAG_PORT", "6000")))
 
     cors_origins: list[str] = ["*"]
     log_level: str = "info"
