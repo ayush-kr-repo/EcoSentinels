@@ -1,474 +1,288 @@
 # 🌍 EcoSentinels
 
-EcoSentinels is an environmental intelligence MVP built for the **Kaggle Gemma 4 Good Hackathon**.
+> **AI-powered environmental intelligence platform** — real-time ecosystem risk monitoring, biodiversity forecasting, and community alert generation powered by Gemma 4 + RAG.
 
-It combines:
+Built for the **Kaggle Gemma 4 Good Hackathon**.
 
-- 🌎 A cinematic multi-page frontend for ecological risk monitoring
-- 🧠 A Python RAG backend over curated environmental knowledge
-- 🌦️ Live weather and air-quality enrichment
-- 🤖 Gemma-powered community-response briefings
-- 🚨 Environmental threat synthesis and emergency guidance
-
-The goal is simple:
-
-> Turn raw environmental signals into actionable field guidance.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://eco-sentinels-frontend.vercel.app)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.100+-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+[![Gemma](https://img.shields.io/badge/Gemma_4-26B-4285F4?style=for-the-badge&logo=google)](https://ai.google.dev)
 
 ---
 
-# ✨ Core Idea
+## 💡 What Problem Does It Solve?
 
-EcoSentinels helps answer:
+EcoSentinels bridges the gap between raw environmental sensor data and **actionable field intelligence**. It answers:
 
-- What is happening?
-- Where is the risk?
-- How severe is it?
-- What should responders, schools, clinics, or communities do right now?
-
----
-
-# 🛰️ Main Product Areas
-
-## 📊 Dashboard
-
-High-level planetary monitoring overview and mission framing.
-
-## 🗺️ Risk Map
-
-Visual ecological hotspot monitoring and regional summaries.
-
-## 📈 Insights
-
-Forecasts and predictive ecosystem intelligence.
-
-## 🧭 Eco-Intel
-
-The primary AI workflow.
-
-Users select a real-world environmental scenario and generate a:
-
-- Threat briefing
-- Environmental analysis
-- Immediate response recommendations
-- Trust-grounded evidence summary
-
-powered by:
-
-- Gemma
-- RAG retrieval
-- Environmental APIs
-- Local inference
+- 🔴 **What is happening?** — Live AQI, temperature, precipitation, wind anomalies
+- 📍 **Where is the risk?** — Geospatial hotspot mapping across critical global regions
+- ⚠️ **How severe is it?** — AI-classified severity: `low → moderate → high → critical`
+- 🚨 **What should communities do right now?** — Gemma 4-generated field briefings and emergency alerts in multiple languages
 
 ---
 
-# 🔥 Main Live Workflow
+## 🖥️ Product Pages
 
-The strongest backend-integrated feature is:
+### 📊 Dashboard — Neural Modeling Score
+- Interactive **3D Earth globe** with live ecosystem fragility overlays
+- **Biodiversity Drift Timeline** (2017–2026) showing accelerating species loss
+- **Early Warning Cluster** — real-time alerts for microbiome collapse, hydraulic stress, and reforestation activity
+- System stats: 12,840 active monitoring stations, 2.1M species indexed, 99.8% AI confidence
+- **Scan Upload** and **Protocols** modals for field responders
 
-```text
-Eco-Intel → Run Briefing
+### 🗺️ Risk Map — Live Planetary Feed
+- Interactive 3D globe with **Hotspot / At-Risk / Stable** filter modes
+- Detailed region cards with fragility index, temperature anomaly, precipitation trends, deforestation rate, and soil moisture
+- 6 monitored regions: Amazon Basin, Arctic Circle, Great Barrier Reef, Congo Rainforest, Scandinavian Forest Belt, New Zealand Alpine Zone
+
+### 📈 Insights — Predictive Intelligence
+- **6-Month Biodiversity Trend** chart — dynamically colored by live severity
+- **Fragility Index** and **Ecosystem Resilience** scores derived from real AQI + temperature data
+- **Live Risk Signals** — AI-flagged environmental alerts with severity tagging
+- **Live Monitoring Snapshot** — real-time weather and AQI per location
+- 4 monitoring locations: Amazon Basin, Delhi, Great Barrier Reef, Arctic Circle
+
+### 🧭 Eco-Intel — AI Field Briefings
+- **Community Briefing Panel** — the hero AI workflow powered by Gemma 4 + RAG
+- **Active Hotspots** — priority AI-detected crisis zones (Amazon, Great Barrier Reef, Himalayan Glacier)
+- Generates: threat level, executive summary, immediate actions, supporting evidence, trust notes, model/provider details
+- **Multi-language alert translation** (ES, FR, PT, HI, SW, AR, ZH, BN)
+
+---
+
+## 🧠 Tech Stack
+
+### Frontend
+| Tech | Purpose |
+|------|---------|
+| React + TypeScript | UI framework |
+| Vite | Build tool |
+| Tailwind CSS | Styling |
+| Framer Motion | Animations |
+| Recharts | Data visualizations |
+| Lucide Icons | Icon system |
+| **Vercel** | Deployment |
+
+### Backend
+| Tech | Purpose |
+|------|---------|
+| FastAPI (Python) | REST API server |
+| ChromaDB | Vector store (78 chunks, 7 knowledge docs) |
+| LangChain | RAG orchestration |
+| sentence-transformers | ONNX local embeddings |
+| Gemma 4 (26B-A4B) | LLM via Google AI |
+| Open-Meteo | Free real-time air quality + weather API |
+| httpx | Async HTTP client |
+| Pydantic v2 | Schema validation |
+
+---
+
+## 🏗️ Architecture
+
+```
+Browser (Vercel)
+      │
+      ▼
+React Frontend
+      │  VITE_API_BASE (direct)
+      ▼
+FastAPI RAG Backend (port 6000)
+      │
+      ├── /data/*     ── Open-Meteo Air Quality + Weather APIs
+      ├── /rag/*      ── ChromaDB Vector Store + Gemma 4 LLM
+      └── /alerts/*   ── Alert Generation + Translation Agent
 ```
 
-This workflow:
+### Multi-Agent System
+Three specialized agents work in concert:
+- **DataAgent** — fetches live air quality (PM2.5, PM10, NO2, O3, AQI) and weather (temp, wind, precipitation, UV, 3-day forecast) from Open-Meteo
+- **AnalystAgent** — RAG retrieval over 7 curated environmental knowledge bases, synthesized by Gemma 4
+- **AlertAgent** — structured community emergency alert generation with multi-language translation
 
-1. Sends a scenario to the backend
-2. Fetches environmental context
-3. Retrieves supporting RAG evidence
-4. Synthesizes a response using Gemma
-5. Returns:
-   - Threat level
-   - Executive summary
-   - Immediate actions
-   - Supporting evidence
-   - Trust notes
-   - Model/provider details
+> If live APIs are unreachable, the system falls back to representative offline scenario data with clear trust notes — so demos never break.
 
 ---
 
-# 🏗️ Architecture
+## 🌐 API Endpoints
 
-```text
-Frontend (React/Vite)
-        ↓
-Express Gateway API
-        ↓
-FastAPI RAG Backend
-        ↓
-Environmental Agents + ChromaDB
-        ↓
-Gemma via Ollama
-```
-
----
-
-# 🧠 Tech Stack
-
-## Frontend
-
-- React
-- Vite
-- TailwindCSS
-- Framer Motion
-- Lucide Icons
-
-## Backend
-
-- FastAPI
-- ChromaDB
-- LangChain
-- sentence-transformers
-- Environmental retrieval pipeline
-
-## AI Runtime
-
-- Ollama
-- Gemma models
-- Local RAG synthesis
+| Method | Route | Description |
+|--------|-------|-------------|
+| `GET` | `/health` | Service health + RAG readiness |
+| `GET` | `/data/air-quality?lat=&lon=` | Live AQI, PM2.5, PM10, NO2, O3 |
+| `GET` | `/data/weather?lat=&lon=` | Current weather + 3-day forecast |
+| `POST` | `/data/analyze` | Full environmental analysis + risk flags |
+| `POST` | `/rag/query` | RAG knowledge query (mode: `rag` or `agent`) |
+| `POST` | `/rag/briefing` | Full community field briefing generation |
+| `GET` | `/rag/search?q=` | Semantic search over knowledge base |
+| `POST` | `/alerts/generate` | AI emergency alert generation |
+| `POST` | `/alerts/translate` | Translate alert to target language |
+| `GET` | `/alerts/severity-guide` | Severity thresholds reference |
 
 ---
 
-# 📁 Project Structure
+## ⚙️ Local Setup
 
-```text
-frontend/                  React + Vite frontend
-artifacts/api-server/      Express gateway / proxy layer
-services/eco-rag/          FastAPI RAG + agent backend
-docs/                      Architecture and submission support docs
-```
+### Prerequisites
+- Python 3.11+
+- Node.js 18+
+- pnpm
 
----
-
-# ✅ Current Product State
-
-## Fully Functional
-
-- Multi-page UI with cinematic visual identity
-- Backend health endpoint
-- RAG-backed briefing generation
-- Evidence + trust notes in responses
-- Working scenario-based AI briefing flow
-- Local Gemma inference via Ollama
-
-## Demo-Oriented / MVP Areas
-
-- Some dashboard metrics are presentation-oriented
-- Risk Map is lightweight rather than a full GIS platform
-- Certain pages are storytelling-oriented for demo clarity
-
-This is intentional for MVP/demo purposes.
-
----
-
-# ⚙️ Setup
-
----
-
-# 1️⃣ Install Ollama
-
-Download and install:
-
-https://ollama.com/download
-
-Then pull a Gemma model:
-
-## Recommended for development
-
+### 1. Clone the repo
 ```bash
-ollama pull gemma3:4b
+git clone https://github.com/ayush-kr-repo/EcoSentinels.git
+cd EcoSentinels
 ```
 
-## Larger final-demo model
-
+### 2. Backend setup
 ```bash
-ollama pull gemma4
+cd services/eco-rag
+
+# Create virtual environment
+py -3.11 -m venv venv
+
+# Activate (Windows PowerShell)
+.\venv\Scripts\Activate.ps1
+# Activate (Mac/Linux)
+source venv/bin/activate
+
+# Install dependencies
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
 ```
 
----
-
-# 2️⃣ Backend Environment
-
-Create:
-
-```text
-services/eco-rag/.env
-```
-
-Add:
-
+Create `services/eco-rag/.env`:
 ```env
-GEMMA_MODEL=gemma3:4b
+GOOGLE_API_KEY=your_google_api_key_here
+GEMMA_MODEL=gemma-4-26b-a4b-it
 RAG_PORT=6000
 LOG_LEVEL=info
 LLM_TIMEOUT_SECONDS=90
 ```
 
----
-
-# 3️⃣ Python Environment
-
-Use Python 3.11 for best compatibility.
-
-From:
-
-```text
-services/eco-rag
-```
-
-Create virtual environment:
-
+### 3. Frontend setup
 ```bash
-py -3.11 -m venv venv
+cd frontend
+pnpm install
 ```
 
-Activate environment:
-
-## Windows PowerShell
-
-```powershell
-.\venv\Scripts\Activate.ps1
-```
-
-Install dependencies:
-
-```bash
-pip install --upgrade pip setuptools wheel
-pip install -r requirements.txt
-pip install ollama
-```
-
----
-
-# 4️⃣ Frontend Environment
-
-Create:
-
-```text
-frontend/.env
-```
-
-Add:
-
+Create `frontend/.env`:
 ```env
 VITE_API_BASE=http://localhost:6000
 ```
 
----
+### 4. Run locally (2 terminals)
 
-# 5️⃣ Frontend Dependencies
-
-From:
-
-```text
-frontend/
-```
-
-Run:
-
-```bash
-pnpm install
-```
-
-or:
-
-```bash
-npm install
-```
-
----
-
-# 🚀 Running Locally
-
-Use **3 terminals**.
-
----
-
-## 🟦 Terminal 1 — Express Gateway
-
-```bash
-cd artifacts/api-server
-pnpm run dev
-```
-
-Expected port:
-
-```text
-http://localhost:8080
-```
-
----
-
-## 🟩 Terminal 2 — FastAPI RAG Backend
-
+**Terminal 1 — FastAPI backend:**
 ```bash
 cd services/eco-rag
 .\venv\Scripts\Activate.ps1
 python main.py
+# → http://localhost:6000
+# → API docs: http://localhost:6000/docs
 ```
 
-Expected port:
-
-```text
-http://localhost:6000
-```
-
----
-
-## 🟪 Terminal 3 — Frontend
-
+**Terminal 2 — Frontend:**
 ```bash
 cd frontend
 pnpm dev
+# → http://localhost:5173
 ```
 
-Expected port:
+### Health check
+```bash
+curl http://localhost:6000/health
+# {"status": "healthy", "rag_ready": true, ...}
+```
 
-```text
-http://localhost:5173
+> ⏱️ On first startup, ChromaDB downloads the ONNX embedding model (~79MB). RAG becomes ready in ~30 seconds. The `/health` endpoint reports `rag_ready: false` until then.
+
+---
+
+## 🌍 Monitored Locations
+
+| Location | Coordinates | Key Risk |
+|----------|-------------|----------|
+| Amazon Basin | -3.47°N, -62.22°E | Deforestation, AQI, heat |
+| Delhi, India | 28.61°N, 77.21°E | Hazardous AQI, extreme heat |
+| Great Barrier Reef | -18.29°N, 147.70°E | Ocean temp, bleaching |
+| Arctic Circle | 69.65°N, 18.96°E | Glacial melt, permafrost |
+
+---
+
+## 📁 Project Structure
+
+```
+EcoSentinels/
+├── frontend/                        # React + Vite frontend (deployed on Vercel)
+│   ├── src/
+│   │   ├── app/
+│   │   │   └── components/
+│   │   │       ├── figma/           # Figma-generated assets
+│   │   │       ├── ui/              # Reusable UI primitives
+│   │   │       ├── DashboardPage.tsx
+│   │   │       ├── RiskMapPage.tsx
+│   │   │       ├── InsightsPage.tsx
+│   │   │       ├── EcoIntelligencePage.tsx
+│   │   │       ├── CommunityBriefingPanel.tsx
+│   │   │       ├── BiodiversityDashboard.tsx
+│   │   │       ├── AIPredictiveInsights.tsx
+│   │   │       ├── EnvironmentalAlerts.tsx
+│   │   │       ├── Realistic3DEarth.tsx
+│   │   │       ├── FlattenedWorldMap.tsx
+│   │   │       ├── ScanUploadModal.tsx
+│   │   │       ├── ProtocolsModal.tsx
+│   │   │       └── Navigation.tsx
+│   │   ├── lib/
+│   │   │   ├── insightsApi.ts       # Insights page API client
+│   │   │   └── ecosentinelsApi.ts   # Community briefing API client
+│   │   ├── App.tsx
+│   │   └── main.tsx
+│   ├── index.html
+│   ├── vite.config.ts
+│   └── package.json
+├── services/eco-rag/                # FastAPI RAG + agent backend
+│   ├── main.py                      # FastAPI app entry point + lifespan
+│   ├── config.py                    # Settings (port, model, paths)
+│   ├── routers/
+│   │   ├── rag_router.py            # POST /rag/query, /rag/briefing, GET /rag/search
+│   │   ├── data_router.py           # GET /data/air-quality, /data/weather, POST /data/analyze
+│   │   └── alert_router.py          # POST /alerts/generate, /alerts/translate
+│   ├── agents/
+│   │   ├── environmental_agent.py   # Multi-agent: DataAgent + AnalystAgent
+│   │   └── alert_agent.py           # AlertAgent + translation
+│   ├── rag/
+│   │   ├── pipeline.py              # Gemma 4 RAG chain
+│   │   └── vectorstore.py           # ChromaDB + ONNX embeddings
+│   ├── models/                      # Pydantic schemas
+│   ├── data/
+│   │   ├── knowledge_base/          # 7 curated environmental documents
+│   │   └── chroma_db/               # Persisted vector store (78 chunks)
+│   └── .env
+├── artifacts/api-server/            # Legacy Express gateway (not used in production)
+├── docs/                            # Architecture and submission docs
+├── scripts/
+├── .env.example
+└── README.md
 ```
 
 ---
 
-# 🌐 Local URLs
+## 🔮 Future Improvements
 
-| Service | URL |
-|---|---|
-| Frontend | http://localhost:5173 |
-| FastAPI Backend | http://localhost:6000 |
-| Backend Docs | http://localhost:6000/docs |
-| Express Gateway | http://localhost:8080 |
-
----
-
-# ❤️ Health Check
-
-Backend is healthy when:
-
-```text
-http://localhost:6000/health
-```
-
-returns:
-
-```json
-{
-  "status": "healthy",
-  "rag_ready": true
-}
-```
-
----
-
-# 🎯 Main Demo Flow
-
-For the strongest demo:
-
-1. Open:
-
-```text
-http://localhost:5173
-```
-
-2. Navigate to:
-
-```text
-Eco-Intel
-```
-
-3. Select a scenario
-
-4. Click:
-
-```text
-Run Briefing
-```
-
-5. Show:
-   - Threat level
-   - Executive summary
-   - Immediate actions
-   - Evidence
-   - Trust notes
-   - Model/provider details
-
-This is the hero workflow of the project.
-
----
-
-# 🧪 Recommended Demo Strategy
-
-For reliable live demos:
-
-- Use English output first
-- Use smaller Gemma models during development
-- Verify `/health` before presenting
-- Verify one successful briefing before recording
-
----
-
-# ⏱️ Notes About Latency
-
-The briefing flow can be slower than simple query endpoints because it may involve:
-
-- Live environmental API fetches
-- RAG retrieval
-- Summarization/generation
-- Alert generation
-- Translation
-
-For smoother demos:
-
-- Prefer `gemma3:4b`
-- Use smaller retrieval depth
-- Use English responses during presentations
-
----
-
-# 🎤 What To Emphasize In A Demo
-
-## Dashboard
-
-Shows mission framing and ecological monitoring identity.
-
-## Risk Map
-
-Shows where issues are emerging.
-
-## Insights
-
-Shows trend and forecast intelligence.
-
-## Eco-Intel
-
-Shows actionable AI briefing generation.
-
----
-
-# 💡 In One Sentence
-
-> EcoSentinels turns environmental signals and scientific knowledge into actionable field briefings for communities under climate stress.
-
----
-
-# ⚠️ Known Caveats
-
-- Some pages are more concept-forward than backend-heavy
-- Some hotspot views are static/semi-static by design
-- Eco-Intel is the primary backend-integrated feature
-- Model runtime must be configured correctly
-
----
-
-# 🔮 Future Improvements
-
-- Richer globe hotspot interaction
-- Better markdown-to-UI formatting
-- Stronger source provenance display
+- Permanent cloud backend deployment (Render / Railway)
+- Richer globe hotspot interaction with drill-down reports
+- Stronger source provenance and citation display
 - Faster multi-step briefing generation
-- Region-level drill-down reports
-- Deployment workflows and persistence
+- Mobile-optimized layouts
+- User-defined monitoring locations
 
 ---
 
-# 🏁 Hackathon Note
+## 📄 License
 
-Built as a hackathon MVP for the **Kaggle Gemma 4 Good Hackathon**.
+MIT
+
+---
+
+<p align="center">Built with 🌱 for the <strong>Kaggle Gemma 4 Good Hackathon</strong></p>
