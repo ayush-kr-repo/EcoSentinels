@@ -390,6 +390,15 @@ This ensures that instead of unverified text strings, high authorities are prese
 
 ---
 
+## 👥 Team Members
+| Members | Contribution |
+|------|----------|
+|Ayush Kumar|Team Lead, Backend, Deployment|
+|Debopriya Bose|UI/UX, FrontEnd implementation|
+|Durlabh Biswas|Ideation, Writeup, Video|
+|Parthiv Dutta|Script, Video Editing|
+|Ansh Jairaj|Script, Writeup|
+
 ## 📄 License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
