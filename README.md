@@ -23,6 +23,7 @@ EcoSentinels bridges the gap between raw environmental sensor data and **actiona
 ---
 
 ## 🖥️ Product Pages
+> All pages are accessible via the **EcoSentinels** side navigation panel with hover-expand and mobile support.
 
 ### 📊 Dashboard — Neural Modeling Score
 - Interactive **3D Earth globe** with live ecosystem fragility overlays
@@ -308,6 +309,7 @@ Sending only the structured actionable content keeps translations clean, complet
 - Stronger source provenance and citation display
 - Faster multi-step briefing generation
 - Mobile-optimized layouts
+- Full-page translation (all sections) in target language
 - User-defined monitoring locations
 
 ---
