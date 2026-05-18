@@ -9,6 +9,9 @@ Built for the **Kaggle Gemma 4 Good Hackathon**.
 [![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
 [![Gemma](https://img.shields.io/badge/Gemma_4-26B-4285F4?style=for-the-badge&logo=google)](https://ai.google.dev)
 
+> **Note:** The AI backend runs locally via Cloudflare Tunnel. 
+> The live demo is active during judging. If the backend is unreachable, 
+> the frontend falls back to offline scenario data automatically.
 ---
 
 ## 💡 What Problem Does It Solve?
