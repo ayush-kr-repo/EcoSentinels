@@ -284,5 +284,3 @@ EcoSentinels/
 MIT
 
 ---
-
-<p align="center">Built with 🌱 for the <strong>Kaggle Gemma 4 Good Hackathon</strong></p>
