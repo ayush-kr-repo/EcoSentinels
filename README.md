@@ -47,7 +47,7 @@ EcoSentinels bridges the gap between raw environmental sensor data and **actiona
 - **Community Briefing Panel** — the hero AI workflow powered by Gemma 4 + RAG
 - **Active Hotspots** — priority AI-detected crisis zones (Amazon, Great Barrier Reef, Himalayan Glacier)
 - Generates: threat level, executive summary, immediate actions, supporting evidence, trust notes, model/provider details
-- **Multi-language alert translation** (ES, FR, PT, HI, SW, AR, ZH, BN)
+- **Multi-language alert translation** (ES, FR, PT, HI, SW, AR, ZH, BN) — translates alert title, summary, and immediate actions via `/alerts/translate`
 
 ---
 
@@ -116,7 +116,7 @@ Three specialized agents work in concert:
 | `POST` | `/rag/briefing` | Full community field briefing generation |
 | `GET` | `/rag/search?q=` | Semantic search over knowledge base |
 | `POST` | `/alerts/generate` | AI emergency alert generation |
-| `POST` | `/alerts/translate` | Translate alert to target language |
+| `POST` | `/alerts/translate?alert_text=&language=` | Translate alert title, summary, and actions to target language |
 | `GET` | `/alerts/severity-guide` | Severity thresholds reference |
 
 ---
