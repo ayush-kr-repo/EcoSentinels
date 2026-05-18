@@ -58,7 +58,7 @@ export interface CommunityBriefing {
   timestamp: string;
 }
 
-const API_BASE = import.meta.env.VITE_API_BASE || '/api/eco';
+const API_BASE = import.meta.env.VITE_API_BASE || '/api';
 
 export const demoScenarios: BriefingScenario[] = [
   {

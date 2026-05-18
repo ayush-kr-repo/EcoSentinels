@@ -41,7 +41,7 @@ const SUPPORTED_LANGUAGES = [
 ];
 
 // Fix: Vite proxy strips /api → localhost:6000, backend has /alerts/translate
-const TRANSLATE_BASE = '/api';
+const TRANSLATE_BASE = import.meta.env.VITE_API_BASE ?? '/api';
 
 // ── Text helpers ─────────────────────────────────────────────────────────────
 function shortText(value: string, max = 620) {
