@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { Radio } from 'lucide-react';
 import HomePage from './components/HomePage';
 import DashboardPage from './components/DashboardPage';
 import RiskMapPage from './components/RiskMapPage';
@@ -26,7 +25,8 @@ export default function App() {
       <div
         className="fixed inset-0 pointer-events-none opacity-30"
         style={{
-          background: 'radial-gradient(ellipse at 20% 20%, rgba(0, 240, 255, 0.15), transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(74, 225, 118, 0.1), transparent 50%)',
+          background:
+            'radial-gradient(ellipse at 20% 20%, rgba(0, 240, 255, 0.15), transparent 50%), radial-gradient(ellipse at 80% 80%, rgba(74, 225, 118, 0.1), transparent 50%)',
         }}
       />
 
@@ -48,7 +48,7 @@ export default function App() {
             >
               <div className="w-2 h-2 rounded-full bg-primary-container animate-pulse" />
               <h1 className="text-xl font-bold text-primary-container uppercase tracking-wider">
-                Biodiversity Drift
+                EcoSentinels
               </h1>
             </motion.button>
 
@@ -76,8 +76,8 @@ export default function App() {
         <SideNavigation currentPage={currentPage} onNavigate={handleNavigate} />
       </div>
 
-      {/* Main Content */}
-      <main className="relative z-10 max-w-screen-2xl mx-auto px-6 py-8 lg:pr-96">
+      {/* Main Content — pr-20 leaves room for the 64px icon rail */}
+      <main className="relative z-10 max-w-screen-2xl mx-auto px-6 py-8 lg:pr-20">
         {currentPage === 'home' && <HomePage onNavigate={handleNavigate} />}
         {currentPage === 'dashboard' && <DashboardPage />}
         {currentPage === 'risk-map' && <RiskMapPage />}

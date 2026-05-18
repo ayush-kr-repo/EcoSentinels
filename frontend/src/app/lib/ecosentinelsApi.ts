@@ -111,7 +111,7 @@ export async function createCommunityBriefing(
       situation: scenario.situation,
       alert_type: scenario.alert_type,
       language: scenario.language,
-      include_alert: false,
+      include_alert: true, // ✅ fixed: was false, alerts now generated
     }),
   });
 
