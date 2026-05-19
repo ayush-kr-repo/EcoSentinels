@@ -386,7 +386,7 @@ This ensures that instead of unverified text strings, high authorities are prese
 - Faster multi-step briefing generation
 - Mobile-optimized layouts
 - Full-page translation (all sections) in target language
-- User-defined monitoring locations
+- User-defined monitoring locations 
 
 ---
 
