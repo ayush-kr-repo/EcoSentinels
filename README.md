@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a2e1a,50:1a5c2e,100:0d3320&height=200&section=header&text=🌍%20EcoSentinels&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=AI-Powered%20Environmental%20Intelligence%20Platform&descAlignY=58&descSize=20&descColor=4ade80&animation=fadeIn" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=4ADE80&center=true&vCenter=true&width=650&lines=Real-time+Ecosystem+Risk+Monitoring;Biodiversity+Forecasting+%7C+RAG+%7C+Gemma+4;Multi-Agent+AI+%7C+10+REST+Endpoints;Built+for+Kaggle+Gemma+4+Good+Hackathon+🌱" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=4ADE80&center=true&vCenter=true&width=650&lines=Real-time+Ecosystem+Risk+Monitoring;Biodiversity+Forecasting+%7C+RAG+%7C+Gemma+4;Multi-Agent+AI+%7C+10+REST+Endpoints;Built+for+Kaggle+Gemma+4+Good+Hackathon" alt="Typing SVG" />
 </a>
 
 <br/>
